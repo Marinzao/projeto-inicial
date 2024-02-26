@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de login</title>
-    <link rel="stylesheet" href="assets/css/styleR.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -19,10 +19,10 @@
 
                 //mensagem de erro caso email/senha incorreto
                 if (isset($_GET['erro']) && $_GET['erro'] === "senhaincorreta") {
-                    echo '<div class="erro">Senha incorreta! Tente novamente.</div>';
+                    echo '<span class="erro">Senha incorreta! Tente novamente.</span>';
                 }
                 if (isset($_GET['erro']) && $_GET['erro'] === "emailinexistente") {
-                    echo '<div class="erro">Email inexistente! Tente novamente.</div>';
+                    echo '<span class="erro">Email inexistente! Tente novamente.</span>';
                 }
                 ?>
             </div>

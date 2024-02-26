@@ -30,9 +30,9 @@ if (mysqli_num_rows($resultado) > 0) {
 } else {
 
     // Inserir um novo registro na tabela "datalogin"
-    $sql = "INSERT INTO datalogin (nome, email, senha) VALUES ($nome, $email, $senha)";
+    $sql = "INSERT INTO datalogin (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
     if (mysqli_query($conn, $sql)) {
-        echo "Novo registro criado com sucesso";
+        header("Location: ..\index.php?sucess=logincriado");
     } else {
         echo "Erro: " . $sql . "<br>" . mysqli_error($conn);
     }

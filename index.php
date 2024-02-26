@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de cadastro</title>
-    <link rel="stylesheet" href="assets/css/styleR.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -18,7 +18,12 @@
 
             //mensagem de erro login existente
             if (isset($_GET['erro']) && $_GET['erro'] === "loginexistente") {
-                echo '<div class="erro">Esse Usuário ou email ja foi utilizado! Tente novamente.</div>';
+                echo '<span class="erro">Esse Usuário ou email ja foi utilizado! Tente novamente.</span>';
+            }
+
+            //mensagem de sucesso
+            if (isset($_GET['sucess']) && $_GET['sucess'] === "logincriado") {
+                echo '<span class="sucess">Login criado com sucesso!</span>';
             }
             ?>
             <div class="Formulário">
