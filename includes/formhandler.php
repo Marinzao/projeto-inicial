@@ -23,10 +23,10 @@ if (!$conn) {
 }
 
 //verificar se o usuario ja existe
-$sql = "SELECT * FROM datalogin WHERE email = '$email' and nome='$nome'";
+$sql = "SELECT * FROM datalogin WHERE email = '$email' or nome='$nome'";
 $resultado = mysqli_query($conn, $sql);
 if (mysqli_num_rows($resultado) > 0) {
-    die("esse login ja existe");
+    header("Location: ..\index.php?erro=loginexistente");
 } else {
 
     // Inserir um novo registro na tabela "datalogin"

@@ -1,4 +1,4 @@
-<?php 
+<?php
 //variaveis conexao server
 $servername = "localhost";
 $username = "root"; // usuário padrão do XAMPP
@@ -39,9 +39,10 @@ if (mysqli_num_rows($resultadoemail) > 0) {
             echo $aux['nome'] . "<br />";
         }
     } else {
-        die("senha incorreta");
+        header("Location: ..\login.php?erro=senhaincorreta");
     }
-} else { 
-    die("login inexistente");
-    }
+} else {
+    header("Location: ..\login.php?erro=emailinexistente");
+}
+mysqli_close($conn);
 ?>
