@@ -81,7 +81,7 @@ body {
         border-style: double;
         border-color: black;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-        text-shadow: 2px 2px 5px white;
+        text-shadow: 2px 2px 2px white;
     }
 
     .sucess {
