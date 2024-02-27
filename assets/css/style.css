@@ -3,6 +3,7 @@ body {
     margin: 0vh;
     padding: 0vh;
     outline: 0vh;
+    background-color: black;
 }
 
 .background {
@@ -27,69 +28,69 @@ body {
     text-align: CENTER;
     border-style: double;
     border-width: 10px;
-    border-color: white;
-
-}
-
-.item-1 {
+    border-color: whitesmoke;
     width: 50%;
     font: 1em Bahnschrift;
 
 }
 
-.titulo {
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
-}
+    .titulo {
+        font-size: 50px;
+        text-shadow: 2px 2px 5px black;
+    }
 
-.input-box {
-    padding: 1%;
-}
+    .input-box {
+        padding: 2%;
+    }
 
-.input-group {
-    display: flex;
-    font-size: 25px;
-    padding: 10%;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 2px 2px 5px black;
-}
+    .input-group {
+        display: flex;
+        font-size: 35px;
+        padding: 10%;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 2px 5px black;
+    }
 
-.button {
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 10px;
-    border-color: whitesmoke;
-    border-style: double;
-    padding: 0, 4rem 1rem;
-    background-color: rgb(100, 100, 100);
-}
+    .botao-login {
+        padding: 3%
+    }
 
-.formulario {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+    button {
+        padding: 0.4rem 1rem;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px;
+        border-color: whitesmoke;
+        border-style: solid;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
 
-.erro {
-    font-size: 20px;
-    background-color: red;
-    color: black;
-    border-radius: 25%;
-    border-style: double;
-    border-color: black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    text-shadow: 2px 2px 5px white;
-}
+    .formulario {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
-.sucess {
-    font-size: 20px;
-    background-color: green;
-    color: black;
-    border-radius: 25%;
-    border-style: double;
-    border-color: black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    text-shadow: 2px 2px 5px white;
-}
+    .erro {
+        font-size: 20px;
+        background-color: red;
+        color: black;
+        border-radius: 25%;
+        border-style: double;
+        border-color: black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .sucess {
+        font-size: 20px;
+        background-color: green;
+        color: black;
+        border-radius: 25%;
+        border-style: double;
+        border-color: black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+        text-shadow: 2px 2px 5px white;
+    }

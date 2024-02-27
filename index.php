@@ -13,7 +13,7 @@
         <img src="assets/img/R.jpg" alt="background" height="100%" width="100%">
     </div>
     <div class="container">
-        <div class="item item-1">
+        <div class="item">
             <?php
 
             //mensagem de erro login existente
@@ -50,7 +50,8 @@
                     </div>
                 </form>
                 <div class="botao-login">
-                    <button type="submit"><a href="login.php">já possui login? clique aqui</a></button>
+                    <button type="submit" class="botao-login"><a href="login.php">já possui login? clique
+                            aqui</a></button>
                 </div>
             </div>
         </div>
