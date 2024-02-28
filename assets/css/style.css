@@ -5,6 +5,26 @@ body {
     outline: 0px;
 }
 
+input {
+    font: 1rem Bahnschrift Light;
+    height: 100%;
+    border-radius: 2rem;
+    text-align: left;
+    font-size: 1rem;
+
+}
+
+button {
+    font: 1rem BBahnschrift Light;
+    padding: 0.4rem 1rem;
+    padding: 10px;
+    border-radius: 2rem;
+    border: 1%;
+    border-color: whitesmoke;
+    border-style: 0 0 1 solid;
+    background-color: rgb(0, 238, 255);
+    text-shadow: 4px 4px 4px grey;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -55,6 +75,28 @@ body {
     width: 50%;
 }
 
+.input-nome {
+    margin-left: 15%;
+    display: flex;
+    font-size: 2rem;
+    width: 50%;
+}
+
+
+.caixaemail {
+    width: 100%;
+
+}
+
+.caixasenha {
+    width: 100%;
+
+}
+
+.caixanome {
+    width: 100%;
+background-color: black;
+}
 .botaologin {
     margin-top: 7rem;
     justify-content: center;
@@ -75,26 +117,6 @@ body {
 
 }
 
-input {
-    font: 1rem Bahnschrift Light;
-    height: 100%;
-    border-radius: 2rem;
-    text-align: left;
-    font-size: 1rem;
-
-}
-
-button {
-    font: 1rem BBahnschrift Light;
-    padding: 0.4rem 1rem;
-    padding: 10px;
-    border-radius: 2rem;
-    border: 1%;
-    border-color: whitesmoke;
-    border-style: 0 0 1 solid;
-    background-color: rgb(0, 238, 255);
-    text-shadow: 4px 4px 4px grey;
-}
 
 .erro {
     font-size: 20px;
@@ -116,14 +138,4 @@ button {
     border-color: black;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
     text-shadow: 2px 2px 2px white;
-}
-
-.caixaemail {
-    width: 100%;
-
-}
-
-.caixasenha {
-    width: 100%;
-
 }
