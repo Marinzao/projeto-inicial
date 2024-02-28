@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$_GET['url']?></title>
-    <link rel="stylesheet" href="assets/css/styleR.css">
+    <title>
+        <?= $_GET['url'] ?>
+    </title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="background">
-        <img src="assets/img/R.jpg" alt="background" height="100%" width="100%">
-    </div>
     <div class="container">
-        <div class="item item-1">
-            <div class="Formulário">
+        <div class="item item1">
+            <div class="formulario">
                 <?php
                 if (isset($_GET['url'])) {
                     if (file_exists('pages/' . $_GET['url'] . '.php')) {

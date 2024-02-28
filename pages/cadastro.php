@@ -1,6 +1,6 @@
-<form method="post" action="#">
+<form method="post" action="app/cadastrauser.php">
     <div class="titulo">
-        <h1>Cadastre-se</h1>
+        <h1><b>Cadastre-se</b></h1>
     </div>
     <div class="input-group">
         <div class="input-box">
@@ -21,5 +21,5 @@
     </div>
 </form>
 <div class="botao-login">
-    <a href="/login">já possui login? clique aqui</a>
+    <a href="login">já possui login? clique aqui</a>
 </div>
