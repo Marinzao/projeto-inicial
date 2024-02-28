@@ -61,42 +61,18 @@ button {
     font-size: 2rem;
 }
 
-.input-email {
+.inputs {
     margin-left: 15%;
     display: flex;
     font-size: 2rem;
     width: 50%;
 }
 
-.input-senha {
-    margin-left: 15%;
-    display: flex;
-    font-size: 2rem;
-    width: 50%;
-}
-
-.input-nome {
-    margin-left: 15%;
-    display: flex;
-    font-size: 2rem;
-    width: 50%;
-}
-
-
-.caixaemail {
+.caixas {
     width: 100%;
 
 }
 
-.caixasenha {
-    width: 100%;
-
-}
-
-.caixanome {
-    width: 100%;
-background-color: black;
-}
 .botaologin {
     margin-top: 7rem;
     justify-content: center;
