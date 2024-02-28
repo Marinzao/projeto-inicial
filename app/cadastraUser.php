@@ -1,9 +1,4 @@
-<?php 
-//variaveis conexao server
-$servername = "localhost";
-$username = "root"; // usuário padrão do XAMPP
-$password = ""; // senha vazia por padrão
-$database = "login_data";
+<?php
 
 //variaveis formulario
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -11,14 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $senha = $_POST["senha"];
 } else {
     die();
-}
-
-// Criar conexão
-$conn = mysqli_connect($servername, $username, $password, $database);
-
-// Verificar conexão
-if (!$conn) {
-    die("Conexão falhou: " . mysqli_connect_error());
 }
 
 //verificar email
@@ -41,7 +28,7 @@ if (mysqli_num_rows($resultadoemail) > 0) {
     } else {
         die("senha incorreta");
     }
-} else { 
+} else {
     die("login inexistente");
     }
 ?>
