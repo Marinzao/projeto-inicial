@@ -4,8 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "login_data";
-
+$database = "webmarket";
 // Criar conexão
 $conn = mysqli_connect($servername, $username, $password, $database);
 

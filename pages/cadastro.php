@@ -1,4 +1,8 @@
-<form action="app/cadastraUser.php" method="post">
+<?php
+
+include 'app/cadastraUser.php';
+?>
+<form method="post">
     <div class="titulo">
         <h1><b>Cadastre-se</b></h1>
     </div>
