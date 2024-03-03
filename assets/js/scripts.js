@@ -12,4 +12,16 @@ $(document).ready(function () {
             $(this).addClass('filled');
         }
     })
+    $('#eye_password').click(function () {
+        let x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+            $('#icon_eye_pass').addClass('fa-eye-slash');
+            $('#icon_eye_pass').removeClass('fa-eye');
+        } else {
+            x.type = "password";
+            $('#icon_eye_pass').addClass('fa-eye');
+            $('#icon_eye_pass').addClass('fa-eye-slash');
+        }
+    })
 })
